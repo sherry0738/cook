@@ -6,12 +6,26 @@
             "jsx": true
         }
     },
-   
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": "airbnb",
     "rules": {
-        "semi": ["error", "always"],
-        "quotes": [2, "single"] 
-        // "quotes": ["error", "double"]
+        "semi": [
+            "error",
+            "always"
+        ],
+        "quotes": [
+            2,
+            "single"
+        ]
     }
-  }
-
-  
+}

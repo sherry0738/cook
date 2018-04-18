@@ -29,6 +29,10 @@ yarn start
 
 
 ```
+### Eslint
+```
+npx eslint client/ --ext .js
+```
 
 ## API
 
